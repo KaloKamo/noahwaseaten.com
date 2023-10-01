@@ -15,36 +15,35 @@ body{
     background-size: cover;
     background-position: center;
 }
-.container {
-    padding: 5px 1%;
-}
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    gap: 20px;
+    margin: 20px;
+    right: 0px;
 }
 
 .logo{
     width: 140px;
 }
 
-nav ul li{
+nav li{
     display: inline-block;
     list-style-type: none;
     margin: 5px 30px;
     position: relative;
 }
 
-nav ul li a{
+nav li a{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     
 }
-nav ul li a::after{
+nav li a::after{
     content: '';
     width: 0;
     height: 3px;
@@ -55,7 +54,7 @@ nav ul li a::after{
     transition: 0.4s;
     
 }
-nav ul li a:hover::after{
+nav li a:hover::after{
     width: 100%;
     
 }
