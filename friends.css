@@ -13,11 +13,16 @@ body {
     background-position: center;
 }
 
+.logoClick {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
 .logo {
-    width: 300px;
     pointer-events: none;
     user-select: none;
-} 
+}
 
 h1 {
     font-family: "Dela Gothic One", cursive;
@@ -35,7 +40,7 @@ h1 {
 
 p {
     font-family: "Metropolis", sans-serif;
-    color: #fff;
+    color: white;
     font-weight: 600;
     font-size: 25px;
     margin-left: 50px; 

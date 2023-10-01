@@ -1,11 +1,11 @@
 * {
-    font-family: 'Metropolis', sans-serif;
+    font-family: "Metropolis", sans-serif;
     font-weight: 700;
     box-sizing: border-box;
 }
 
 body {
-    background: #080808
+    background-color: #080808;
 
 }
 #header {
@@ -15,8 +15,13 @@ body {
     background-position: center;
 }
 
+.logoClick {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
 .logo {
-    width: 300px;
     pointer-events: none;
     user-select: none;
 }
@@ -38,7 +43,7 @@ nav li {
 }
 
 nav li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
