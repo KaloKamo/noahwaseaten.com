@@ -18,3 +18,25 @@ body {
     pointer-events: none;
     user-select: none;
 } 
+
+h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 150px;
+    user-select: none;
+    line-height: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    color:white;
+}
+
+.firstLetter {
+    color: #5000a0;
+}
+
+p {
+    font-family: "Metropolis", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 50px; 
+}

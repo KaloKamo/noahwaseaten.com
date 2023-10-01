@@ -3,6 +3,7 @@
     font-weight: 700;
     box-sizing: border-box;
 }
+
 body {
     background: #080808
 
@@ -14,6 +15,12 @@ body {
     background-position: center;
 }
 
+.logo {
+    width: 300px;
+    pointer-events: none;
+    user-select: none;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -21,12 +28,6 @@ nav {
     gap: 20px;
     margin: 20px;
     float: right;
-}
-
-.logo {
-    width: 300px;
-    pointer-events: none;
-    user-select: none;
 }
 
 nav li {
@@ -51,7 +52,6 @@ nav li a::after {
     left: 0;
     bottom: -3px;
     transition: 0.4s;
-    
 }
 
 nav li a:hover::after{
