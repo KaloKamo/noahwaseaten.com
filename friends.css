@@ -22,10 +22,10 @@ body {
     background-position: center;
 }
 
-h1, p {
+p {
 
     padding: 2;
-    font-family: Metropolis, sans-serif;
+    font-family: "Metropolis", sans-serif;
     color: #fff;
     font-weight: 600;
 } 
