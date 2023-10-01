@@ -64,3 +64,11 @@ nav li a::after {
 nav li a:hover::after{
     width: 100%;
 }
+
+p {
+    font-family: "Metropolis", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 50px; 
+}
