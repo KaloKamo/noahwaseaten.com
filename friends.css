@@ -15,4 +15,6 @@ body {
 
 .logo {
     width: 300px;
+    pointer-events: none;
+    user-select: none;
 } 

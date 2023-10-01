@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Metropolis', sans-serif;
     font-weight: 700;
     box-sizing: border-box;
 }
@@ -25,6 +25,8 @@ nav {
 
 .logo {
     width: 300px;
+    pointer-events: none;
+    user-select: none;
 }
 
 nav li {
