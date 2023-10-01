@@ -18,12 +18,14 @@ body {
 .logoClick {
     display: inline-block;
     width: 200px;
-    height: 100px;
+    height: 70px;
 }
 
 .logo {
     pointer-events: none;
     user-select: none;
+    width: 200px;
+    height: 70px;
 }
 
 nav {

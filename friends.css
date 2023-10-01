@@ -16,21 +16,23 @@ body {
 .logoClick {
     display: inline-block;
     width: 200px;
-    height: 100px;
+    height: 70px;
 }
 
 .logo {
     pointer-events: none;
     user-select: none;
+    width: 200px;
+    height: 70px;
 }
 
 h1 {
     font-family: "Dela Gothic One", cursive;
-    font-size: 150px;
+    font-size: 8.3vw;
     user-select: none;
     line-height: 30px;
     margin-bottom: 70px;
-    text-align: center;
+    text-align: center;;
     color:white;
 }
 
