@@ -46,6 +46,9 @@ h1 {
 
 .firstLetter {
     color: #5000a0;
+    background: linear-gradient(#5000A0,#5C00B9);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 p {
