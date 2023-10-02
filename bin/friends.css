@@ -13,7 +13,7 @@ body {
     background-position: center;
 }
 
-.logoClick {
+.logo-click {
     display: inline-block;
     width: 200px;
     height: 70px;
@@ -44,10 +44,10 @@ h1 {
     color:white;
 }
 
-.firstLetter {
+.first-letter {
     color: #5000a0;
-    background: linear-gradient(#5000A0,#5C00B9);
-    -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(#5000A0,#5C00B9);
+    -webkit-text-fill-color: transparent; */  /* makes it not work */
     background-clip: text;
 }
 
@@ -57,4 +57,9 @@ p {
     font-weight: 600;
     font-size: 25px;
     margin-left: 50px; 
+}
+
+.secret-button {
+    width: 10px;
+    height: 10px;
 }

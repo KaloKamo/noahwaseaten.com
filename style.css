@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 700;
+}
+
+.logoClick {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+}
+
+.logo {
+    pointer-events: none;
+    user-select: none;
+    width: 200px;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 30px;
+    position: relative;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #5000a0;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.4s;
+}
+
+nav li a:hover::after{
+    width: 100%;
+}
+
+h1 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 6vw;
+    user-select: none;
+    line-height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    /* background: linear-gradient(#5000A0,#5C00B9);
+    -webkit-text-fill-color: transparent; */  /* makes it not work */
+    background-clip: text;
+    color:white;
+}
+
+.first-letter {
+    color: #5000a0;
+}
+
+p {
+    font-family: "Metropolis", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 50px; 
+}
+
+.secret-button {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 50%;
+}
