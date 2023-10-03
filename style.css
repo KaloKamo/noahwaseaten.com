@@ -111,3 +111,9 @@ p {
     margin-top: 50%;
     color:#5000a0
 }
+
+.secret-div {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
