@@ -21,6 +21,17 @@ body {
     height: 70px;
 }
 
+.logo-click {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+}
+
+.friends-click {
+    color: white;
+    text-decoration: none;
+}
+
 .logo {
     pointer-events: none;
     user-select: none;
@@ -98,4 +109,5 @@ p {
     float: left;
     margin-bottom: 0px;
     margin-top: 50%;
+    color:#5000a0
 }
