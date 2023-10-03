@@ -83,8 +83,6 @@ h1 {
     line-height: 100px;
     margin-bottom: 15px;
     text-align: center;
-    /* background: linear-gradient(#5000A0,#5C00B9);
-    -webkit-text-fill-color: transparent; */  /* makes it not work */
     background-clip: text;
     color:white;
 }
