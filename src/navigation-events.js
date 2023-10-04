@@ -1,7 +1,7 @@
 import { homeTemplate } from "./pages/home.js";
 import { friendsTemplate } from "./pages/friends.js";
 import { downloadsTemplate } from "./pages/downloads.js";
-import { contactTemplate } from "./pages/contact.js";
+import { contactsTemplate } from "./pages/contacts.js";
 import { secretPageTemplate } from "./pages/secret-page.js";
 import { memesTemplate } from "./pages/memes.js";
 
@@ -17,8 +17,8 @@ export const loadPage = (page = '') => {
         case 'downloads':
             document.getElementById('container').innerHTML = downloadsTemplate();
             return;
-        case 'contact':
-            document.getElementById('container').innerHTML = contactTemplate();
+        case 'contacts':
+            document.getElementById('container').innerHTML = contactsTemplate();
             return;
         case 'secret-page':
             document.getElementById('container').innerHTML = secretPageTemplate();

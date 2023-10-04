@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('click', event => {
     
-    const headerPages = ['home-page', 'friends-page', 'downloads-page', 'contact-page', 'secret-div'];
-
-    console.log(event.target);
+    const headerPages = ['home-page', 'friends-page', 'downloads-page', 'contacts-page', 'secret-div'];
 
     if(headerPages.some(page => event.target.classList.contains(page))) {
         loadPage(event.target.getAttribute('load-page'));
