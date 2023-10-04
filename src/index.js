@@ -6,16 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('click', event => {
     
-    const headerPages = ['home-page', 'friends-page', 'downloads-page', 'contact-page'];
+    const headerPages = ['home-page', 'friends-page', 'downloads-page', 'contact-page', 'secret-div'];
 
     console.log(event.target);
 
     if(headerPages.some(page => event.target.classList.contains(page))) {
         loadPage(event.target.getAttribute('load-page'));
     }
-
-    if (event.target.classList.contains('secret-div')) {
-        loadPage(event.target.getAttribute('load-page'));
-    }
-
 });

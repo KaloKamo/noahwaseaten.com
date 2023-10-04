@@ -2,6 +2,8 @@ import { homeTemplate } from "./pages/home.js";
 import { friendsTemplate } from "./pages/friends.js";
 import { downloadsTemplate } from "./pages/downloads.js";
 import { contactTemplate } from "./pages/contact.js";
+import { secretPageTemplate } from "./pages/secret-page.js";
+import { memesTemplate } from "./pages/memes.js";
 
 export const loadPage = (page = '') => {
     switch (page) {
@@ -19,9 +21,10 @@ export const loadPage = (page = '') => {
             document.getElementById('container').innerHTML = contactTemplate();
             return;
         case 'secret-page':
-            document.getElementById('container').innerHTML = friendsTemplate();
+            document.getElementById('container').innerHTML = secretPageTemplate();
+            return;
         case 'memes':
-            window.open('memes.html');
+            document.getElementById('container').innerHTML = memesTemplate();
             return;
     }
 }

@@ -1,5 +1,6 @@
 export const homeTemplate = () => `
 <div id="container">
+    <h1><span class="first-letter">N</span>OAH</h1>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis venenatis arcu, sed auctor augue ultricies a. Mauris neque sapien, sodales sed sem sed, luctus elementum risus. Vivamus at accumsan tellus, nec accumsan velit. Aenean feugiat massa ut dui placerat, vitae hendrerit nisl ullamcorper. Phasellus risus purus, aliquet at consequat et, consequat sit amet ipsum. Integer ultricies tortor non dui fringilla, ac finibus velit viverra. Curabitur faucibus diam non nunc ullamcorper mollis. Vivamus posuere odio nec luctus vehicula. Proin fringilla facilisis leo, vitae eleifend lorem porta at.
 

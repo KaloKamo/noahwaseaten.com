@@ -88,17 +88,6 @@ h1 {
     color:white;
 }
 
-h2 {
-    font-family: "Dela Gothic One", cursive;
-    font-size: 4.3vw;
-    user-select: none;
-    line-height: 100px;
-    margin-bottom: 15px;
-    text-align: center;
-    background-clip: text;
-    color:white;
-}
-
 .first-letter {
     color: #5000a0;
 }
