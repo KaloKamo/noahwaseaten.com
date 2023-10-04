@@ -31,6 +31,11 @@ body {
     height: 70px;
 }
 
+.flex {
+    display: flex;
+    column-gap: 20px;
+}
+
 .friends-click {
     color: white;
     text-decoration: none;
@@ -119,4 +124,10 @@ p {
 
 .meme-title {
     margin: 0px;
+}
+
+.twitch-logo {
+    margin-top: 22.5px;
+    width: 35px;
+    height: 35px;
 }
