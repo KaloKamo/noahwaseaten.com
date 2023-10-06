@@ -57,32 +57,15 @@ nav {
     float: right;
 }
 
-/* nav a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #5000a0;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transition: 0.4s;
-}
-
-nav a:hover::after{
-    width: 100%;
-} */
-
 h1 {
     
     font-family: "Dela Gothic One", cursive;
     font-size: 6vw;
     user-select: none;
-    /* margin-bottom: 15px; */
     text-align: center;
     background-clip: text;
     color:white;
     width: auto;
-    /* max-width: 460px; */
 }
 
 .first-letter {
@@ -150,18 +133,6 @@ p {
     background-color: rgba(161, 19, 227, 0%);
     transition: transform 0.1s linear;
 }
-
-/* .hi-noah {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    margin-left: 30%;
-    width: 50%;
-} */
-
-/* .hi-noah * {
-    text-align: center;
-} */
 
 .hi-noah {
     text-align: center;
