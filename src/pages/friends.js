@@ -5,6 +5,7 @@ export const friendsTemplate = () => `
     <div class="flex">
         <p class="p-welcome">Phantom: super cool and chill dude, helped redesign and create the whole website</p>
         <a href="https://www.twitch.tv/ph4nt0mk" target="_blank"><img src="images/twitch.png" class="twitch-logo"></a>
+        <a href="https://discord.gg/AfnjAqpBaj" target="_blank"><img src="images/discord.png" class="discord-logo"></a>
     </div>
     <p class="p-welcome">Kayden: lorem ipsum</p>
     <p class="p-welcome">Kalonzi: lorem ipsum</p>

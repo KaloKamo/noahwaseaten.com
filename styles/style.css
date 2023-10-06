@@ -67,7 +67,7 @@ nav a {
     font-size: 20px;
 }
 
-nav a::after {
+/* nav a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -80,7 +80,7 @@ nav a::after {
 
 nav a:hover::after{
     width: 100%;
-}
+} */
 
 h1 {
     font-family: "Dela Gothic One", cursive;
@@ -126,8 +126,23 @@ p {
     margin: 0px;
 }
 
-.twitch-logo {
+.twitch-logo, .discord-logo {
     margin-top: 22.5px;
     width: 35px;
     height: 35px;
+    transition: background-color, .13s linear;
+    /* transition: border-radius, .0.5s linear; */
+}
+
+.twitch-logo:hover, .discord-logo:hover {
+    background-color: #5000a0;
+    border-radius: 5px;
+}
+
+.home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
+    transform: scale(1.2);
+}
+
+.home-page, .friends-page, .downloads-page, .contacts-page {
+    transition: transform 0.1s linear;
 }
