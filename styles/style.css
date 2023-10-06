@@ -67,7 +67,7 @@ nav a {
     font-size: 20px;
 }
 
-/* nav a::after {
+nav a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -80,17 +80,19 @@ nav a {
 
 nav a:hover::after{
     width: 100%;
-} */
+}
 
 h1 {
+    
     font-family: "Dela Gothic One", cursive;
     font-size: 6vw;
     user-select: none;
-    line-height: 100px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     text-align: center;
     background-clip: text;
     color:white;
+    width: auto;
+    /* max-width: 460px; */
 }
 
 .first-letter {
@@ -130,13 +132,13 @@ p {
     margin-top: 22.5px;
     width: 35px;
     height: 35px;
-    transition: background-color, .13s linear;
-    /* transition: border-radius, .0.5s linear; */
+    transition: background-color, .15s linear;
+    transition: border-radius, .0.5s linear;
+    border-radius: 5px;
 }
 
 .twitch-logo:hover, .discord-logo:hover {
     background-color: #5000a0;
-    border-radius: 5px;
 }
 
 .home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
@@ -145,4 +147,21 @@ p {
 
 .home-page, .friends-page, .downloads-page, .contacts-page {
     transition: transform 0.1s linear;
+}
+
+/* .hi-noah {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 30%;
+    width: 50%;
+} */
+
+/* .hi-noah * {
+    text-align: center;
+} */
+
+.hi-noah {
+    text-align: center;
+    font-size: 5vw;
 }
