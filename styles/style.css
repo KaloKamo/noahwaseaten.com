@@ -57,17 +57,7 @@ nav {
     float: right;
 }
 
-nav a {
-    display: inline-block;
-    list-style-type: none;
-    margin: 5px 30px;
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-nav a::after {
+/* nav a::after {
     content: '';
     width: 0;
     height: 3px;
@@ -80,7 +70,7 @@ nav a::after {
 
 nav a:hover::after{
     width: 100%;
-}
+} */
 
 h1 {
     
@@ -143,9 +133,21 @@ p {
 
 .home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
     transform: scale(1.2);
+    background-color: rgba(161, 19, 227, 40%);
+    transition: background-color 0.15s ease-out;
 }
 
 .home-page, .friends-page, .downloads-page, .contacts-page {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 10px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(161, 19, 227, 0%);
     transition: transform 0.1s linear;
 }
 
