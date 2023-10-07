@@ -1,1 +1,1 @@
-<li>remove //, /* */ and <!-- --> lines in code</li>
+<li>fix the secret-page "FRIENDS" button
