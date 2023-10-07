@@ -1,1 +1,1 @@
-<li>fix the secret-page "FRIENDS" button
+<li>fix the secret-page "FRIENDS" button</li>
