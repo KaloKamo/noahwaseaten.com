@@ -1,1 +1,0 @@
-<li>remove //, /* */ and <!-- --> lines in code</li>

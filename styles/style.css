@@ -130,6 +130,7 @@ p {
     border-radius: 8px;
     background-color: rgba(161, 19, 227, 0%);
     transition: transform 0.2s ease-out;
+    /* transition: transform 0.1s linear; */
 }
 
 .hi-noah {
