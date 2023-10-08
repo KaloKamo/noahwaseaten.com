@@ -6,6 +6,8 @@ body {
     background-color: #080808;
 }
 
+/* header start */
+
 #header {
     width: 100%;
     height: 70px;
@@ -15,40 +17,24 @@ body {
     font-weight: 700;
 }
 
-#header a {
-    cursor: pointer;
-}
-
-.logoClick {
-    display: inline-block;
-    width: 200px;
-    height: 70px;
-}
-
 #logo-click {
     display: inline-block;
     width: 200px;
     height: 70px;
 }
 
-.flex {
-    display: flex;
-    column-gap: 20px;
-}
-
-.friends-click {
-    color: white;
-    text-decoration: none;
-}
-
-.logo {
+#logo {
     pointer-events: none;
-    user-select: none;
     width: 200px;
     height: 70px;
 }
 
-nav {
+#header a {
+    cursor: pointer;
+    user-select: none;
+}
+
+#header nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -56,6 +42,8 @@ nav {
     margin: 20px;
     float: right;
 }
+
+/* header ends */
 
 h1 {
     font-family: "Dela Gothic One", cursive;
@@ -79,15 +67,9 @@ p {
     margin-left: 50px; 
 }
 
-.secret-button {
-    width: 10px;
-    height: 10px;
-    background-color: transparent;
-    border-color: transparent;
-    float: left;
-    margin-bottom: 0px;
-    margin-top: 50%;
-    color:#5000a0
+.friend-div {
+    display: flex;
+    column-gap: 20px;
 }
 
 .secret-div {
@@ -96,16 +78,12 @@ p {
     height: 10px;
 }
 
-.meme-title {
-    margin: 0px;
-}
-
 .twitch-logo, .discord-logo {
     margin-top: 22.5px;
     width: 35px;
     height: 35px;
     transition: background-color, .15s linear;
-    transition: border-radius, .0.5s linear;
+    transition: border-radius, .05s linear;
     border-radius: 5px;
 }
 
@@ -119,16 +97,16 @@ p {
 }
 
 .home-page, .friends-page, .downloads-page, .contacts-page {
-    display: inline-block;
-    list-style-type: none;
     margin: 5px 10px;
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
     padding: 5px;
+    font-size: 20px;
     border-radius: 8px;
+    color: white;
     background-color: rgba(161, 19, 227, 0%);
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
     transition: transform 0.2s ease-out;
 }
 
@@ -168,10 +146,7 @@ p {
 }
 
 .spoiler1:hover {
-    background-color:#080808;
-    color: white;
-    transition-property: color;
     color: #a73030;
+    transition-property: color;
     transition-delay: 0.01s;
-    cursor: default;
 }
