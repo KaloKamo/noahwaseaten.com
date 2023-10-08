@@ -4,6 +4,7 @@ import { downloadsTemplate } from "./pages/downloads.js";
 import { contactsTemplate } from "./pages/contacts.js";
 import { secretPageTemplate } from "./pages/secret-page.js";
 import { memesTemplate } from "./pages/memes.js";
+import { MemesGridFill } from "./memesCode/memesGridFill.js";
 
 export const loadPage = (page = '') => {
     switch (page) {
@@ -25,6 +26,7 @@ export const loadPage = (page = '') => {
             return;
         case 'memes':
             document.getElementById('container').innerHTML = memesTemplate();
+            document.getElementById('memes-grid-slot-transitions').innerHTML = MemesGridFill();
             return;
     }
 }
