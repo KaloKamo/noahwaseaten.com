@@ -58,7 +58,6 @@ nav {
 }
 
 h1 {
-    
     font-family: "Dela Gothic One", cursive;
     font-size: 6vw;
     user-select: none;
@@ -117,7 +116,6 @@ p {
 .home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
     transform: scale(1.2);
     background-color: rgba(161, 19, 227, 40%);
-    transition: background-color 0.15s ease-out;
 }
 
 .home-page, .friends-page, .downloads-page, .contacts-page {
@@ -131,10 +129,29 @@ p {
     padding: 5px;
     border-radius: 8px;
     background-color: rgba(161, 19, 227, 0%);
-    transition: transform 0.1s linear;
+    transition: transform 0.2s ease-out;
+    /* transition: transform 0.1s linear; */
 }
 
 .hi-noah {
     text-align: center;
     font-size: 5vw;
+}
+
+#memes-grid-slot-transitions {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meme-grid-box {
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    transition: transform 5s ease-out;
+}
+
+.meme-grid-box:hover {
+    transform: scale(2);
+    transition: transform 0s ease-in;
 }
