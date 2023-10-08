@@ -130,7 +130,6 @@ p {
     border-radius: 8px;
     background-color: rgba(161, 19, 227, 0%);
     transition: transform 0.2s ease-out;
-    /* transition: transform 0.1s linear; */
 }
 
 .hi-noah {
@@ -144,14 +143,18 @@ p {
     flex-wrap: wrap;
 }
 
+.meme-grid-box-full {
+    background-color: #5000a0;
+}
+
+.meme-grid-box-full:hover .meme-grid-box {
+    transform: scale(2);
+    transition: transform 0s ease-in;
+}
+
 .meme-grid-box {
     padding: 10px;
     margin: 10px;
-    background-color: aquamarine;
+    background-color: #080808;
     transition: transform 5s ease-out;
-}
-
-.meme-grid-box:hover {
-    transform: scale(2);
-    transition: transform 0s ease-in;
 }
