@@ -63,13 +63,18 @@ p {
     font-family: "Metropolis", sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 25px;
-    margin-left: 50px; 
+    font-size: 24px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.p-welcome {
+    margin-right: 0px;
 }
 
 .friend-div {
     display: flex;
-    column-gap: 20px;
+    column-gap: 15px;
 }
 
 .secret-div {
@@ -78,7 +83,20 @@ p {
     height: 10px;
 }
 
-.twitch-logo, .discord-logo {
+.twitch-logo1, .discord-logo1, .github-logo1, .youtube-logo1 {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    transition: background-color, .15s linear;
+    transition: border-radius, .05s linear;
+    border-radius: 5px;
+}
+
+.twitch-logo1:hover, .discord-logo1:hover, .github-logo1:hover, .youtube-logo1:hover {
+    background-color: #5000a0;
+}
+
+.twitch-logo, .discord-logo, .github-logo {
     margin-top: 22.5px;
     width: 35px;
     height: 35px;
@@ -87,7 +105,7 @@ p {
     border-radius: 5px;
 }
 
-.twitch-logo:hover, .discord-logo:hover {
+.twitch-logo:hover, .discord-logo:hover, .github-logo:hover {
     background-color: #5000a0;
 }
 

@@ -6,9 +6,10 @@ export const friendsTemplate = () => `
         <p class="p-welcome">Phantom: super cool and chill dude, helped redesign and create the whole website</p>
         <a href="https://www.twitch.tv/ph4nt0mk" target="_blank"><img src="images/twitch.png" class="twitch-logo"></a>
         <a href="https://discord.gg/AfnjAqpBaj" target="_blank"><img src="images/discord.png" class="discord-logo"></a>
+        <a href="https://github.com/ph4nt0mk" target="_blank"><img src="images/github.png" class="github-logo"></a>
     </div>
-    <p class="p-welcome">Kayden: lorem ipsum</p>
-    <p class="p-welcome">Kalonzi: lorem ipsum</p>
+    <p>Kayden: lorem ipsum</p>
+    <p>Kalonzi: lorem ipsum</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum, tellus fringilla sagittis laoreet, sem erat consequat purus, ac laoreet enim nisi at nisi. Proin quis scelerisque justo. Vivamus ultrices varius dolor. Vivamus blandit pellentesque mauris sit amet tincidunt. Nulla pulvinar dapibus erat quis hendrerit. Integer elit tellus, fermentum eget ligula ac, tincidunt pellentesque dui. Maecenas diam metus, pellentesque nec neque et, tincidunt rutrum lectus. Donec ac vulputate tellus. Donec euismod sollicitudin ipsum, sit amet blandit lectus luctus eget. Aliquam auctor elit sed urna pellentesque, sit amet feugiat lorem tempus. Aliquam sollicitudin neque turpis, vel euismod odio consequat at. Ut dui eros, accumsan sit amet viverra at, finibus sit amet nibh. Nunc lobortis nunc a volutpat vulputate.
     
     Pellentesque in porttitor purus, sed finibus sem. Aliquam egestas, nunc et consequat euismod, metus nisl elementum turpis, sit amet suscipit mauris ex nec quam. Praesent lorem arcu, sagittis ornare mollis non, rhoncus a arcu. Quisque bibendum quam molestie ligula feugiat, vel cursus sem aliquet. Sed ornare at enim pharetra interdum. Nam posuere cursus orci a vulputate. Morbi blandit sapien quis vestibulum tincidunt. Integer lacinia risus maximus bibendum varius. Nulla id ante egestas, placerat lorem a, egestas nulla. Nulla pellentesque justo non erat consectetur finibus.
