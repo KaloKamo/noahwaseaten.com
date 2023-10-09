@@ -4,6 +4,7 @@
 
 body {
     background-color: #080808;
+    height: 100%;
 }
 
 /* header start */
@@ -44,6 +45,28 @@ body {
 }
 
 /* header ends */
+
+
+
+/* footer start */
+
+footer {
+    margin-top: auto;
+    width: 99%;
+}
+
+.email-contacts {
+    text-decoration: none;
+    color: white;
+}
+
+.email-contacts:hover {
+    transition: color 0.10s linear;
+    color: #5000a0;
+}
+
+/* footer ends */
+
 
 h1 {
     font-family: "Dela Gothic One", cursive;
