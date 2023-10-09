@@ -27,4 +27,60 @@ export const gamesData = () => [
         releaseYear: "2023",
         releaseDate: "September 27"
     },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
+    {
+        id: 4,
+        name: "CS2",
+        cover: "/src/data/gamesImages/cs2.png",
+        releaseYear: "2023",
+        releaseDate: "September 27"
+    },
 ]

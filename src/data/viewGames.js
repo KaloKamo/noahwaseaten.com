@@ -9,6 +9,7 @@ export const viewGames = () => {
             <h2>${game.name}</h2>
             <p>${game.releaseYear}</p>
             <img src="${game.cover}" alt="${game.name}.png">
+            <p class="view-details">View Details</p>
         </div>\n
         `;
     });

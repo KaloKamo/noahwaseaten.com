@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Metropolis", sans-serif;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
     height: 70px;
     background-size: cover;
     background-position: center;
-    font-family: "Metropolis", sans-serif;
     font-weight: 700;
 }
 
@@ -56,6 +56,7 @@ h1 {
 }
 
 .first-letter {
+    font-family: "Dela Gothic One", cursive;
     color: #5000a0;
 }
 
@@ -149,4 +150,60 @@ p {
     color: #a73030;
     transition-property: color;
     transition-delay: 0.01s;
+}
+
+#games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0px 75px 0px 75px; */
+    margin: auto;
+    margin-left: 78px;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.game-div {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    align-items: center;
+    padding: 0px 5px 10px 5px;
+    border: 1px solid #5000a0;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.game-div * {
+    color: white;
+    pointer-events: none;
+    user-select: none;
+}
+
+.game-div p {
+    margin: 5px 0px 5px 0px;
+}
+
+.game-div h2 {
+    font-size: 2vw;
+    margin: 20px 0px 10px 0px;
+}
+
+.game-div img {
+    width: 300px;
+    height: 500px;
+}
+
+.view-details {
+    font-size: 1vw;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.view-details:hover {
+    transition: background-color 0.2s ease-out;
+    background-color: #5000a0;
 }
