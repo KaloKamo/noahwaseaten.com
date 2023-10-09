@@ -155,7 +155,6 @@ p {
 #games-grid {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0px 75px 0px 75px; */
     margin: auto;
     margin-left: 78px;
     column-gap: 30px;
@@ -168,7 +167,7 @@ p {
     width: 320px;
     height: auto;
     align-items: center;
-    padding: 0px 5px 10px 5px;
+    padding: 0px 5px 0px 5px;
     border: 1px solid #5000a0;
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.02);
@@ -194,13 +193,14 @@ p {
     height: 500px;
 }
 
-.view-details {
-    font-size: 1vw;
+.game-div .view-details {
+    margin: 10px 0px 10px 0px;
     padding: 10px;
+    font-size: 1vw;
     background-color: black;
     border-radius: 5px;
-    cursor: pointer;
     pointer-events: all;
+    cursor: pointer;
 }
 
 .view-details:hover {
