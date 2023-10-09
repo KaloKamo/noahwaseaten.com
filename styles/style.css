@@ -91,12 +91,12 @@ p {
     background-color: #5000a0;
 }
 
-.home-page:hover, .friends-page:hover, .downloads-page:hover, .contacts-page:hover {
+.content-page:hover, .friends-page:hover, .games-page:hover, .contacts-page:hover {
     transform: scale(1.2);
     background-color: rgba(161, 19, 227, 40%);
 }
 
-.home-page, .friends-page, .downloads-page, .contacts-page {
+.content-page, .friends-page, .games-page, .contacts-page {
     margin: 5px 10px;
     padding: 5px;
     font-size: 20px;
