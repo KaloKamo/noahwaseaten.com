@@ -51,8 +51,14 @@ body {
 /* footer start */
 
 footer {
-    margin-top: auto;
-    width: 99%;
+    position: absolute;
+    bottom: auto    ;
+    filter: brightness(15%);
+}
+
+.bottom-contacts {
+    margin-left: 10px;
+    font-size: 15px;
 }
 
 .email-contacts {
@@ -73,7 +79,6 @@ h1 {
     font-size: 6vw;
     user-select: none;
     text-align: center;
-    background-clip: text;
     color:white;
     width: auto;
 }
@@ -107,7 +112,7 @@ p {
 }
 
 .twitch-logo1, .discord-logo1, .github-logo1, .youtube-logo1 {
-    margin-top: 10px;
+    margin-top: 30px;
     width: 35px;
     height: 35px;
     transition: background-color, .15s linear;
