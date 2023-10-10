@@ -52,13 +52,14 @@ body {
 
 footer {
     position: absolute;
-    bottom: auto    ;
+    bottom: auto;
     filter: brightness(15%);
 }
 
 .bottom-contacts {
     margin-left: 10px;
     font-size: 15px;
+    margin-top: 20px;
 }
 
 .email-contacts {
