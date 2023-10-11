@@ -48,9 +48,9 @@ body {
 
 
 
-/* footer start */
+/* footer start, have commented footer until we get games and content up and running */ 
 
-footer {
+/* footer {
     position: absolute;
     bottom: auto;
     filter: brightness(15%);
@@ -70,7 +70,7 @@ footer {
 .email-contacts:hover {
     transition: color 0.10s linear;
     color: #5000a0;
-}
+} */
 
 /* footer ends */
 
