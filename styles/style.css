@@ -103,7 +103,7 @@ p {
 
 .friend-div {
     display: flex;
-    column-gap: 15px;
+    column-gap: 20px;
 }
 
 .secret-div {
@@ -116,6 +116,7 @@ p {
     margin-top: 30px;
     width: 35px;
     height: 35px;
+    text-decoration: none;
     transition: background-color, .15s linear;
     transition: border-radius, .05s linear;
     border-radius: 5px;
@@ -196,4 +197,24 @@ p {
     color: #a73030;
     transition-property: color;
     transition-delay: 0.01s;
+}
+
+img {
+    vertical-align: sub;
+    text-decoration: none;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-text:hover {
+    text-decoration: underline;
+    color: #5000a0;
+    transition: color .2s ease;
+}
+
+a {
+    text-decoration: none;
 }
