@@ -55,4 +55,12 @@ export const gamesData = () => [
         releaseDate: 'February 24',
         link: 'https://store.steampowered.com/app/367520/Hollow_Knight/'
     },
+    {
+        id: 8,
+        name: 'Fortnite',
+        cover: '/src/data/gamesImages/fortnite.png',
+        releaseYear: '2017',
+        releaseDate: 'July 21',
+        link: 'https://www.fortnite.com/'
+    },
 ]
