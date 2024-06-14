@@ -144,6 +144,10 @@ p {
     background-color: rgba(161, 19, 227, 40%);
 }
 
+.downloads-page:hover, .contacts-page:hover, .friends-page:hover {
+    background-color: rgba(255, 0, 55, 0.4);
+}
+
 .home-page, .friends-page, .downloads-page, .contacts-page {
     margin: 5px 10px;
     padding: 5px;
@@ -156,6 +160,24 @@ p {
     list-style-type: none;
     text-decoration: none;
     transition: transform 0.2s ease-out;
+}
+
+.test, .test2 {
+    margin-left: 5.9vw;
+    margin-top: -3.5vh;
+    position: absolute;
+    color: wheat;
+    font-size: 1.3em;
+}
+.test2 {
+    margin-top: -4vh;
+    margin-right: 0;
+    font-size: 0.9em;
+    margin-left: 19.8vw;
+}
+
+.contacts-page, .friends-page {
+    text-decoration: line-through;
 }
 
 .hi-noah {
