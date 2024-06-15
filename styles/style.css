@@ -19,15 +19,13 @@ body {
 }
 
 #logo-click {
-    display: inline-block;
     width: 200px;
     height: 70px;
 }
 
+
 #logo {
-    pointer-events: none;
-    width: 200px;
-    height: 70px;
+    cursor: pointer;
 }
 
 #header a {
@@ -86,6 +84,20 @@ h1 {
 
 .first-letter {
     color: #5000a0;
+}
+
+.noah-logo {
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+.munchcode {
+    cursor: pointer;
+    margin-left: -6vw;
+    margin-bottom: 1vh;
+    height: 10vh;
+    width: 30vw;
+    position: absolute;
 }
 
 p {
