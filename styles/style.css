@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #080808;
+    background-color: #202021;
     height: 100%;
 }
 
@@ -144,7 +144,7 @@ p {
     background-color: rgba(161, 19, 227, 40%);
 }
 
-.downloads-page:hover, .contacts-page:hover, .friends-page:hover {
+.contacts-page:hover, .friends-page:hover {
     background-color: rgba(255, 0, 55, 0.4);
 }
 
@@ -225,4 +225,101 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.githuber {
+    margin-left: 4.15vw;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+}
+
+.githuber {
+    margin-left: 4.15vw;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+}
+
+.project-div {
+    display: block;
+    cursor: pointer;
+    padding: 0.7em;
+    border: 1px solid rgba(229, 229, 229, .4);
+    border-radius: 8px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    background-color: #29292b;
+    width: 25.5vw;
+    height: 16vh;
+    transition: .2s box-shadow, .2s background-color;
+}
+
+.project-div:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .25), 0 6px 6px rgba(0, 0, 0, .22);;
+    background-color: #1e1e1f;
+}
+
+.brand-top {
+    margin-top: vh;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-family: Inter, system-ui, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1.9vh;
+}
+
+.desc {
+    color: white;
+    font-family: Inter, system-ui, sans-serif;
+    margin-left: 0vw;
+    margin-top: 0.6vh;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+
+.munch {
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.munchcode-text {
+    font-family: Inter, system-ui, sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.05em;
+    margin: 0;
+}
+
+.languages::before {
+    content: "";
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    transform: translateY(.05em);
+    border-radius: 50%;
+    background: #f1e05a;
+}
+
+.js {
+    font-family: Inter, system-ui, sans-serif;
+    color: white;
+}
+
+.open {
+    position: absolute;
+    height: 1.4em;
+    width: 1.4em;
+    color: rgba(229, 229, 229, .4);
+    margin-top: -13.7vh;
+    margin-left: 23.1vw;
 }
