@@ -3,7 +3,7 @@ export const downloadsTemplate = () => `
      <a href="https://github.com/KaloKamo/noahwaseaten.com" target="_blank" class="project-div">
       <div class="brand-top">
         <img src="images/munchcode-favicon-black-whitebg.svg" class="munch" />
-        <p class="munchcode-text">Munchcode</p>
+        <p class="munchcode-text">Kalmo</p>
       </div>
       <div class="brand-title">
         <h3>noahwaseaten.com</h3>
