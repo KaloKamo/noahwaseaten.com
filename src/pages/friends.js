@@ -8,14 +8,9 @@ export const friendsTemplate = () => `
       <a target="_blank" href="https://github.com/PH4NT0MK" class="phan">
         <img src="images/PFPNICE.png" class="phane" />
       </a>
-      <a target="_blank" href="https://github.com/PH4NT0MK" class="phan">
-        <img src="images/PFPNICE.png" class="phane" />
+      <a target="_blank" href="https://www.twitch.tv/kalonziii" class="phan">
+        <img src="images/kalonzi.png" class="phane" />
       </a>
-      <a target="_blank" href="https://github.com/PH4NT0MK" class="phan">
-        <img src="images/PFPNICE.png" class="phane" />
-      </a>
-      <a target="_blank" href="https://github.com/PH4NT0MK" class="phan">
-        <img src="images/PFPNICE.png" class="phane" />
       </a>
     </div>
     </div>
