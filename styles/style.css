@@ -370,9 +370,6 @@ h3 {
     color: #a442ff;
 }
 
-.email {
-}
-
 .add {
     font-size: 24px;
     color: white;
@@ -424,4 +421,115 @@ h3 {
 
 .clyde:hover {
     fill: #a442ff;
+}
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@media screen and (max-width: 430px) {
+    .munchcode {
+        box-sizing: border-box;
+        height:5%;
+        margin-top: 3.1em;
+        margin-left:9.5em;
+    }
+    .home-page, .friends-page, .downloads-page, .contacts-page {
+        margin: 0;
+        margin-left: 1vw;
+        margin-top: -1vh;
+    }
+    .contacts-page {
+        font-size: 0;
+    }
+
+    #header nav {
+        gap: 20px;
+    }
+
+    h1 {
+        margin-left: 0.5vw;
+        font-size: 3em;
+        margin-top: 2vh;
+    }
+
+    .test {
+        font-size: 0;
+    }
+
+    .friend-div {
+        margin-left: -19vw;
+    }
+
+    .hi-noah {
+        font-size: 3em;
+    }
+
+    p {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .project-div {
+        margin-left: 0.3em;
+        height: 9em;
+        width: 25.5em;
+    }
+
+    .open {
+        margin-top: -em;
+        margin-left: 22.7em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .munchcode {
+        margin-left: 8.2em;
+    }
+
+    .home-page, .friends-page, .downloads-page, .contacts-page {
+        margin: 0;
+        margin-left: -2vw;
+        margin-top: -1vh;
+    }
+
+    .project-div {
+        margin-left: 0.3em;
+        height: 9em;
+        width: 22.9em;
+    }
+
+    .open {
+        margin-top: -8em;
+        margin-left: 20.3em;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .project-div {
+        margin-left: 0.3em;
+        height: 9em;
+        width: 24.4em;
+    }
+
+    .open {
+        margin-top: -8em;
+        margin-left: 21.9em;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .project-div {
+        margin-left: 0.3em;
+        height: 9em;
+        width: 21.9em;
+    }
+
+    .open {
+        margin-top: -7.8em;
+        margin-left: 19.3em;
+    }
 }

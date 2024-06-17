@@ -1,5 +1,5 @@
 export const friendsTemplate = () => `
-    <h1><span class="first-letter">F</span>RIENDS</h1>
+    <h1><span class="first-letter">F</span>riends</h1>
     
     <div class="secret-div" load-page="secret-page"></div>
     <div class="secret-div" load-page="memes"></div>
