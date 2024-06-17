@@ -255,7 +255,7 @@ a {
     font-size: 1.5em;
 }
 
-.project-div {
+.project-div, .project-div3 {
     display: block;
     cursor: pointer;
     padding: 0.7em;
@@ -274,11 +274,15 @@ a {
     background-color: #1e1e1f;
 }
 
-.brand-top {
+.brand-top, .brand-top2 {
     margin-top:-0.4vh;
     gap: 8px;
     display: flex;
     align-items: center;
+}
+
+.flexer {
+    display: flex;
 }
 
 h3 {
@@ -304,7 +308,7 @@ h3 {
     width: 1.5em;
 }
 
-.munchcode-text {
+.munchcode-text, .munchcode-text2 {
     font-family: Inter, system-ui, sans-serif;
     font-weight: 500;
     color: white;
@@ -312,7 +316,12 @@ h3 {
     margin: 0;
 }
 
-.languages::before {
+.munchcode-text2 {
+    font-size: 0.9em;
+}
+
+
+.languages::before, .languages2::before {
     content: "";
     display: inline-block;
     width: .8em;
@@ -320,6 +329,10 @@ h3 {
     transform: translateY(.05em);
     border-radius: 50%;
     background: #f1e05a;
+}
+
+.languages2::before {
+    background-color: #2600ff;
 }
 
 .js {
@@ -380,8 +393,8 @@ h3 {
 .add2 {
     z-index: 1;
     position: absolute;
-    margin-top: 28.5em;
-    margin-left: -1em;
+    margin-top: 31.5em;
+    margin-left: -49em;
 
 }
 
@@ -405,9 +418,9 @@ h3 {
 .discord-div2 {
     z-index: 1;
     position: absolute;
-    margin-top: 44.5em;
+    margin-top: 49em;
     height: 1.7em;
-    margin-left: 6.44em;
+    margin-left: -65.8em;
 }
 
 .discord-server, .discord-server2 {
@@ -452,8 +465,8 @@ h3 {
 
 .footer {
     border-radius: 40px 40px 0px 0px;
-    margin-left: -4em;
-    margin-top: 42.5em;
+    margin-left: -75em;
+    margin-top: 47.7em;
     position: absolute;
     z-index: 1;
     opacity: 50%;
@@ -605,20 +618,28 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
-    .project-div {
+    .project-div3, .project-div {
         margin-left: 0.3em;
         height: 9em;
-        width: 24.4em;
+        width: 24.3em;
+    }           
+
+    .project-div3 {
+        height: 9.5em;
+    }
+
+    .flexer {
+        flex-direction: column;
     }
 
 
     .open {
         margin-top: -8em;
-        margin-left: 21.9em;
+        margin-left: 21.6em;
     }
 
     #header {
-        margin-left: 0.5em;
+        margin-left: -0.5em;
     }
 
     .munchcode {
