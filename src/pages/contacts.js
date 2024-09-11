@@ -1,5 +1,5 @@
 export const contactsTemplate = () => `
-    <h1><span class="first-letter">C</span>ONTACTS</h1>
+    <h1><span class="first-letter">C</span>ontacts</h1>
     <p class="email"> You can email me at <a class="email-anchor" href="mailto:contact@noahwaseaten.com">contact@noahwaseaten.com</a>
     <div class="discord">
       <span class="add">Alternatively you can join my</span>
