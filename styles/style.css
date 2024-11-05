@@ -481,93 +481,6 @@ body {
     background-color: #2A2A2A;}
 
 
-.redesign {
-    position: relative;
-    margin-top: 50vh;
-    font-size: xx-large;
-    color: white;
-    font-family: "Metropolis", sans-serif;
-    font-weight: 800;
-    text-align: right;
-    z-index: 1;
-    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
-}
-
-.click-here, .click-here2 {
-    z-index: 5;
-    font-size: 1.5em;
-    margin-left: 82vw;
-    margin-right: 0;
-    margin-top: 45vh;
-    color: white;
-    font-family: "Metropolis", sans-serif;
-    font-weight: 800;
-    text-align: right;
-    position: absolute;
-}
-
-.click-here2 {
-    font-size: 5.5em;
-    margin: 0;
-    margin-top: 25vh;
-    text-align: center;
-    position: static;
-}
-
-.click {
-    color: rgb(65, 230, 230);
-}
-
-.glow {
-    -webkit-user-drag: none;
-    user-select: none;
-    height: 100vh;
-    margin-left: -50px;
-    margin-top: -50vh;
-    position: absolute;
-    user-select: none;
-}
-
-.line {
-    -webkit-user-drag: none;
-    user-select: none;
-    user-select: none;
-    z-index: 0;
-    height: 916px;
-    margin-left: 40vw;
-    margin-top: -50.5vh;
-    position: absolute;
-}
-
-.left, .right {
-    -webkit-user-drag: none;
-    user-select: none;
-    margin-left: 3.5vw;
-    margin-top: -40vh;
-    position: absolute;
-}
-
-.left {
-    height: 100%;
-    width: 45%;
-    z-index: 2;
-}
-
-.right {
-    height: 100%;
-    width: 45%;
-    z-index: 3;
-    margin-left: 48vw;
-}
-
-
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-}
-
-/* Mobile devices */
-@media screen and (max-width: 600px) { 
     .redesign {
         position: relative;
         margin-top: 50vh;
@@ -580,16 +493,25 @@ body {
         text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
     }
     
-    .click-here {
+    .click-here, .click-here2 {
         z-index: 5;
         font-size: 1.5em;
-        margin-left: 15vw;
-        margin-top: 46vh;
+        margin-left: 82vw;
+        margin-right: 0;
+        margin-top: 45vh;
         color: white;
         font-family: "Metropolis", sans-serif;
-        font-weight: 100;
+        font-weight: 800;
         text-align: right;
         position: absolute;
+    }
+    
+    .click-here2 {
+        font-size: 5.5em;
+        margin: 0;
+        margin-top: 25vh;
+        text-align: center;
+        position: static;
     }
     
     .click {
@@ -607,14 +529,13 @@ body {
     }
     
     .line {
-        transform: rotate(90deg);
         -webkit-user-drag: none;
         user-select: none;
         user-select: none;
         z-index: 0;
-        height: 500px;
+        height: 916px;
         margin-left: 40vw;
-        margin-top: -35vh;
+        margin-top: -50.5vh;
         position: absolute;
     }
     
@@ -622,24 +543,98 @@ body {
         -webkit-user-drag: none;
         user-select: none;
         margin-left: 4.5vw;
-        margin-top: -72.5vh;
+        margin-top: -40vh;
         position: absolute;
     }
     
     .left {
         height: 100%;
-        width: 110%;
+        width: 45%;
         z-index: 2;
     }
     
     .right {
         height: 100%;
-        width: 98%;
+        width: 40%;
         z-index: 3;
-        margin-top: -20.5vh;
-
+        margin-left: 56.5vw;
     }
-}
+    
+    
+    /* Mobile devices */
+    @media screen and (max-width: 600px) { 
+        .redesign {
+            position: relative;
+            margin-top: 50vh;
+            font-size: xx-large;
+            color: white;
+            font-family: "Metropolis", sans-serif;
+            font-weight: 800;
+            text-align: right;
+            z-index: 1;
+            text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+        }
+        
+        .click-here {
+            z-index: 5;
+            font-size: 1.5em;
+            margin-left: 15vw;
+            margin-top: 46vh;
+            color: white;
+            font-family: "Metropolis", sans-serif;
+            font-weight: 100;
+            text-align: right;
+            position: absolute;
+        }
+        
+        .click {
+            color: rgb(65, 230, 230);
+        }
+        
+        .glow {
+            -webkit-user-drag: none;
+            user-select: none;
+            height: 100vh;
+            margin-left: -50px;
+            margin-top: -50vh;
+            position: absolute;
+            user-select: none;
+        }
+        
+        .line {
+            transform: rotate(90deg);
+            -webkit-user-drag: none;
+            user-select: none;
+            user-select: none;
+            z-index: 0;
+            height: 500px;
+            margin-left: 40vw;
+            margin-top: -35vh;
+            position: absolute;
+        }
+        
+        .left, .right {
+            -webkit-user-drag: none;
+            user-select: none;
+            margin-left: 4.5vw;
+            margin-top: -72.5vh;
+            position: absolute;
+        }
+        
+        .left {
+            height: 100%;
+            width: 110%;
+            z-index: 2;
+        }
+        
+        .right {
+            height: 100%;
+            width: 98%;
+            z-index: 3;
+            margin-top: -20.5vh;
+    
+        }
+    }
 
 @media screen and (max-width: 540px) {
     .munchcode {
