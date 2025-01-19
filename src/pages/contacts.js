@@ -22,6 +22,6 @@ export const contactsTemplate = () => `
             </g>
           </g>
         </svg>
-        <a class="discord-server" href="https://discord.gg/jgMSBsTeSY" target="_blank">discord server</a>
+        <a class="discord-server" href="https://discord.gg/jgMSBsTeSY" target="_blank"></a>
       </div>
 `;
